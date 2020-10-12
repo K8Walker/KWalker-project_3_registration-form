@@ -118,11 +118,6 @@ textarea,
    margin: 0 auto;
 }
 
-p {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
-}
-
 ::placeholder {
   font-family: 'Merriweather', serif;
   font-size: 1em;
@@ -135,7 +130,6 @@ input[id=phone]::placeholder {
   font-style: normal;
   text-align: left;
   color: #C9CACA;
-
 }
 
 legend {
