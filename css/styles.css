@@ -1,0 +1,311 @@
+/* =================================
+  Base Element Styles
+==================================== */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	line-height: 1.3;
+	color: black;
+  margin: 0;
+}
+
+h1{
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  background-color: #3F3F40;
+  margin-top: 0;
+  padding: 40px;
+  border: none;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.boxed {
+  max-width: 800px;
+  margin: auto;
+
+}
+.top-tagline {
+  color: gray ;
+	font-size: 1.2em;
+	text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  margin-bottom: 5px;
+}
+
+.top-line1 {
+  width: 95%;
+  height: 8px;
+  background-color: #3F3F40;
+  margin-bottom: 5px;
+}
+
+.top-line2 {
+  width: 95%;
+  height: 4px;
+  background-color: #3F3F40;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+#state {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  height: 65px;
+  margin: 0;
+  outline: 0;
+  padding: 12px;
+  width: 100%;
+  background-color: #ebebeb;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#state {
+  font-family: 'Merriweather', serif;
+}
+
+#topics {
+  height: 120px;
+  width: 100%;
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.btm-line {
+   border: none;
+   width: 100%;
+   height: 4px;
+   background-color: #3F3F40;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0;
+}
+
+.btm-line2 {
+   border: none;
+   width: 100%;
+   height: 4px;
+   background-color: #3F3F40;
+   margin: 0 auto;
+}
+
+p {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+::placeholder {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  font-style: italic;
+  text-align: right;
+}
+
+input[id=address]::placeholder,
+input[id=phone]::placeholder {
+  font-style: normal;
+  text-align: left;
+  color: #C9CACA;
+
+}
+
+legend {
+  font-weight: 800;
+}
+
+legend.contact {
+  font-size: 1.6em;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+legend.newsletter {
+  font-size: 1.6em;
+  font-weight: 800;
+  padding-top: 15px;
+}
+
+form {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 0 10px 8px 0;
+  transform: scale(1.5);
+}
+
+select {
+  padding: 6px;
+  height: 60px;
+  border-radius: 2px;
+}
+
+#zipcode {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4ebbb5;
+  font-size: 1.2em;
+	font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #4ebbb5;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+}
+
+.container-btm {
+  box-sizing: border-box;
+  background-color: #dff0ef;
+  padding: 20px;
+}
+
+legend {
+  font-size: 1.4em;
+}
+
+
+label.news,
+label.delivery {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+label {
+  padding-bottom: 8px;
+  }
+
+  label.other {
+  display: block;
+}
+
+.btm-tagline {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+p.newsformat {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+label.other {
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.flex-pair,
+.flex-pair-zip {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+/* UI element states pseudo-classes ------------ */
+
+input:focus,
+textarea:focus,
+#state:focus {
+  border: 2px solid #4ebbb5;
+}
+
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+  .flex-pair {
+    flex-direction: row;
+  }
+
+  .flex-pair-zip {
+   flex-direction: row;
+   justify-content: flex-start;
+  }
+
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  #state {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  label {
+    align-self: center;
+  }
+
+  label[for=zipcode] {
+    width: 20%;
+  }
+
+
+  }
